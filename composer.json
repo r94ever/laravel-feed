@@ -1,8 +1,8 @@
 {
-	"name": "laravelium/feed",
-	"description": "Laravelium Feed package for Laravel.",
+	"name": "r94ever/feed",
+	"description": "Feed package for Laravel.",
 	"homepage": "https://laravelium.com",
-	"keywords": ["laravelium", "laravel", "feed", "generator", "rss", "atom"],
+	"keywords": ["laravel", "feed", "generator", "rss", "atom"],
 	"license": "MIT",
 	"authors": [
 		{
@@ -18,15 +18,15 @@
 		"wiki": "https://github.com/Laravelium/laravel-feed/wiki"
 	},
 	"require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
+        "php": ">=8.0.2",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/filesystem": "^8.0|^9.0"
 	},
 	"require-dev": {
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.0|^9.0",
         "phpunit/phpunit": "^9.3",
-		"orchestra/testbench-core": "^6.0"
-	},
+        "orchestra/testbench-core": "^6.0"
+    },
 	"autoload": {
 		"psr-0": {
 			"Laravelium\\Feed": "src/"
@@ -38,9 +38,9 @@
 				"Laravelium\\Feed\\FeedServiceProvider"
 			],
 			"aliases": {
-        "Feed": "Laravelium\\Feed\\Feed"
-      }
-		}
+                "Feed": "Laravelium\\Feed\\Feed"
+            }
+        }
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true

@@ -18,6 +18,15 @@ composer require laravelium/feed
 
 or add the following to your `composer.json` file :
 
+#### For Laravel 9
+```json
+"r94ever/laravel-feed": "9.*"
+```
+(development branch)
+```json
+"r94ever/laravel-feed": "8.x-dev"
+```
+
 #### For Laravel 8
 ```json
 "laravelium/feed": "8.*"
